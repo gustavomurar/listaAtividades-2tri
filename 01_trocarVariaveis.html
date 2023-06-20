@@ -5,9 +5,14 @@
     Em seguida, troque o valor das variáveis, invertendo e exibindo o antes e o depois em uma janela de alert.
     */
 
-    const um = Number(prompt("informe um número inteiro:"));
-    const dois = Number(prompt("informe um número inteiro:"));
+    const aa = Number(prompt("informe um número inteiro:"));
+    const bb = Number(prompt("informe um número inteiro:"));
 
+    alert(`Antes ${aa} , ${bb}`);
     
+    const jj = bb;
+    aa = bb;
+    bb = jj;    
     
+    alert(`Depois ${aa} , ${bb}`);
 </script>
